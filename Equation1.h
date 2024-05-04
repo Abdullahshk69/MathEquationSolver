@@ -5,5 +5,5 @@
 class Equation1 : public Equation
 {
 public:
-	void EquationSolve(double x) override;
+	double EquationSolve(double x) override;
 };

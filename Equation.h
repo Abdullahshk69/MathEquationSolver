@@ -3,5 +3,5 @@
 class Equation
 {
 public:
-	virtual void EquationSolve(double x) = 0;
+	virtual double EquationSolve(double x) = 0;
 };

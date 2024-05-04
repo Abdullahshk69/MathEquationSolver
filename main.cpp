@@ -3,5 +3,12 @@
 int main()
 {
 	Equation1 eq;
-	eq.EquationSolve(1.999815);
+	double x0 = 2;
+	double x1 = 0;
+	for(int i=0;i<10;i++)
+	{
+		x1 = eq.EquationSolve(x0);
+		
+		x0 = x1;
+	}
 }
